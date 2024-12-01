@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bellarmine Financials - Balance Sheet Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Header -->
+     <header>
+        Bellarmine Financials - Balance Sheet Calculator
+     </header>
+
+    <!-- Main Content -->
+     <main>
+        <!-- Assets -->
+
+        <div class="grid-container">
+            <!-- Row 1 -->
+            <div class="grid-item assets">Assets</div>
+            <div class="grid-item liabilities">Liabilities</div>
+
+            <!-- Row 2 -->
+            <div class="grid-item current-assets">
+                <label> Current Assets</label>
+            </div>
+
+            <div class="grid-item current-assets-item">
+                <button> Add Current Assets </button>
+                <!-- Current Asset items: Cash, inventory, Supplies, Temp Investments, Total Calulated-->
+            </div>
+            
+            <div class="grid-item current-liabilities">
+                <label> Current Liabilities</label>
+            </div>
+
+            <div class="grid-item current-liabilities-item">
+                <button> Add Current Liabilities</button>
+                <!-- Current Liability Items: Accounts payable, notes payable, interest payable, wages payable, accured expenses, total calcualted-->
+            </div>
+            
+            <!-- Row 3 -->
+            <div class="grid-item investments"> Investement Property & Equipment </div>
+
+            <div class="grid-item investments-item">
+                <button> Add Investment Property & Equipment </button>
+                <!-- I & E Items: land, building and improvements, equipment, temporary investments, total calculated-->
+            </div>
+
+            <div class="grid-item long-term-liabilities">Long-Term Liabilities</div>
+            
+            <div class="grid-item long-term-liabilities-item">
+                <button> Add Long-Term Liabilities </button>
+                <!-- Long term liability items: notes payable, bonds payable, total calculated-->
+            </div>
+            
+           
+           <!-- Row 4 -->
+            <div class="grid-item intangibles">Intangibles</div>
+            
+            <div class="grid-item intangibles-item">
+                <button> Add Intangibles</button>
+            </div>
+            
+            <div class="grid-item total-position">
+                <div>
+                    <strong>Total Position</strong>
+                    <p class = "position-details">
+                        <!--button> Calculate Position</button -->
+                    </p>
+                    <p class = "position-assets">Total Assets: 0</p>
+                    <p class = "position-liabilities">Total Liabilities: 0</p>
+                    <p class = "position-total">Position: 0</p>
+                </div>
+            </div>
+                
+            <div class="grid-item blank-space">
+                <!-- Blank: for proper spacing -->
+            </div>
+        </div>
+     </main>
+    
+
+    <!-- Footer -->
+    <footer> 
+        Megan Cole, CS-311, Fall 2024
+    </footer>
+
+    <script src="script.js"></script>
+ 
+  </body>
+</html>
